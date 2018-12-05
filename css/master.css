@@ -1,0 +1,160 @@
+body{
+	background-image: url("../images/background.png");
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	height:100px;
+	background-image: url("../images/banner.png");
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	color:white;
+	text-align:center;
+	font-size:80px;
+	font-family: 'Dosis', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdc7c;
+	font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #566652;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #566652;
+	color: white;
+}
+
+.active {
+    background-color: #ffc66b;
+}
+
+#rose{
+	position: fixed;
+	bottom: 0;
+	left: 5%;
+	height: 60%;
+	transition: all .2s ease-in-out;
+}
+
+#rose:hover{
+	transform: scale(1.1);
+	opacity:0.7;
+}
+
+#rose-prompt{display:none;}
+#rose:hover + #rose-prompt{display:block;}
+
+#daisy{
+	position: fixed;
+	bottom: 0;
+	left: 30%;
+	height: 60%;
+	transition: all .2s ease-in-out;
+}
+
+#daisy:hover{
+	transform: scale(1.1);
+	opacity:0.7;
+}
+
+#daisy-prompt{display:none;}
+#daisy:hover + #daisy-prompt{display:block;}
+
+#tulip{
+	position: fixed;
+	bottom: 0;
+	left: 55%;
+	height: 60%;
+	transition: all .2s ease-in-out;
+}
+
+#tulip:hover{
+	transform: scale(1.1);
+	opacity:0.7;
+}
+
+#tulip-prompt{display:none;}
+#tulip:hover + #tulip-prompt{display:block;}
+
+#hydrangea{
+	position: fixed;
+	bottom: 0;
+	left: 80%;
+	height: 60%;
+	transition: all .2s ease-in-out;
+}
+
+#hydrangea:hover{
+	transform: scale(1.1);
+	opacity:0.7;
+}
+
+#hydrangea-prompt{display:none;}
+#hydrangea:hover + #hydrangea-prompt{display:block;}
+
+img{
+	height:90%;
+}
+
+p{
+	text-align:center;
+	font-size: 50px;
+	font-family: 'Dosis', sans-serif;
+	color: #043d26;	
+}
+
+a{
+	text-decoration: none;
+}
+
+#bloom{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.container{
+	text-align:center;
+}
+
+#quoteDisplay{
+	font-size: 30px;
+	font-family:'Quicksand', sans-serif;
+	color:#043d26;
+}
+
+h1{
+	font-size: 40px;
+	font-family: 'Dosis', sans-serif;
+	color:#043d26;
+	margin:0;
+	padding-top:20px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+	color:#043d26;
+}

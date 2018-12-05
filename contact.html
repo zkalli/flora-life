@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FloraLife</title>
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Quicksand" rel="stylesheet"> 
+</head>
+
+<body>
+		<div id="header">
+			<a href="home.html"><header id="logo">FloraLife</header><a>
+		</div>
+		
+		<div id="nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="breathe.html">Breathe</a></li>
+				<li><a href="advice.html">Advice</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+		<div id="content">
+			<h3>Contact Form</h3>
+
+			<div class="container">
+			  <form action="/action_page.php">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your first name">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="choose">Choose</option>
+					<option value="usa">USA</option>
+					<option value="canada">Canada</option>
+					<option value="mexico">Mexico</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write your message here." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			  </form>
+			</div>
+		</div>
+
+</body>
+</html>

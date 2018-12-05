@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FloraLife</title>
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Quicksand" rel="stylesheet"> 
+</head>
+
+<body>
+		<div id="header">
+			<a href="home.html"><header id="logo">FloraLife</header><a>
+		</div>
+		
+		<div id="nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="breathe.html">Breathe</a></li>
+				<li><a class="active" href="advice.html">Advice</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+		<div id="content">
+			<script>
+		var quotes = ['"Once you choose hope, anything is possible." (Christopher Reeve)','"A positive attitude gives you power over your circumstances instead of your circumstances having power over you." (Joyce Meyer)', '"Dost thou love life? Then do not squander time, for that is the stuff life is made of." (Benjamin Franklin)', '"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time." (Thomas A. Edison)', '"Holding onto anger is like drinking poison and expecting the other person to die." (Buddha)', '"Dreams dont work unless you do." (Brandi Vaisey Marsey)', '"Do what you love and not what you are told to love."', '"Stay true to yourself"','"Keep your face always toward the sunshine - and shadows will fall behind you." (Walt Whitman)'];
+
+
+		function newQuote(){
+			var randomNumber = Math.floor(Math.random()* (quotes.length));
+			document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+		}
+			</script>
+		</div>
+
+	<div class="container">
+	   <h1> Advice </h1>
+	   <h2> Here are some quotes that might help!</h2>
+	   <br/>
+	   <div id="quoteDisplay"></div>
+	   <br/>
+	   <br/>
+	   <button onclick="newQuote()">New Quote</button>
+	   <br/>
+	   <br/>
+
+	</div>
+</body>
+</html>

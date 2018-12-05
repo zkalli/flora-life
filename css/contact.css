@@ -1,0 +1,111 @@
+body{
+	background-image: url("../images/background.png");
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	height:100px;
+	background-image: url("../images/banner.png");
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	color:white;
+	text-align:center;
+	font-size:80px;
+	font-family: 'Dosis', sans-serif;
+}
+
+#content{
+	width:90%;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width: 90%;
+	margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdc7c;
+	font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #566652;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #566652;
+	color: white;
+}
+
+.active {
+    background-color: #ffc66b;
+}
+
+h3{
+	text-align:left;
+	font-size: 60px;
+	font-family: 'Dosis', sans-serif;
+	color: #043d26;
+	padding:10px;
+	padding-left:5%;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
